@@ -109,6 +109,9 @@ TW_EXTRA_LANGUAGES := true
 TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
 TW_USE_TOOLBOX := true
 
+# Enable twrp to be installed from .img file
+TW_INCLUDE_REPACKTOOLS := true
+
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
